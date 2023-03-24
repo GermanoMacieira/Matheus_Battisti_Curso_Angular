@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { FirstCompComponent } from './components/first-comp/first-comp.component';
 import { SecondCompFilhoComponent } from './components/second-comp-filho/second-comp-filho.component';
 import { DirectivesComponent } from './components/directives/directives.component';
+import { IfRenderComponent } from './components/if-render/if-render.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstCompComponent,
     SecondCompFilhoComponent,
-    DirectivesComponent
+    DirectivesComponent,
+    IfRenderComponent
   ],
   imports: [
     BrowserModule,
